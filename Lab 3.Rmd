@@ -29,6 +29,7 @@ spruce.df = read.csv("SPRUCE.csv")
 head(spruce.df)
 ```
 
+# Task 3
 
 
 # Me
