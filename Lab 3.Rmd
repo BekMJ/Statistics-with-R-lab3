@@ -32,14 +32,10 @@ head(spruce.df)
 # Task 3
 
 ## o	Make a scatter plot of the data (y axis will be the Height).
-
 ```{r}
-library(ggplot2)
-g=ggplot(spruce.df, aes(x= BHDiameter,y=Height))
-g=g+geom_point() + geom_line()+ geom_smooth(method="lm")
-g+ggtitle("BHDiameter Vs Height")
-
+plot(Height~BHDiameter, data = spruce.df, main = "Height vs BHDiameer")
 ```
+
 
 
 
